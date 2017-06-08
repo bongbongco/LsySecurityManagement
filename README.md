@@ -1,6 +1,6 @@
 # LsySecurityManagement
 
-## 구성요소
+## 1. 구성요소
 
 ### 취약점 관리
 발견된 취약점 정보 표시
