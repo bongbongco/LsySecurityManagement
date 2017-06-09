@@ -11,11 +11,11 @@ def hello_world():
 
 @app.route('/login')
 def login():
-	return render_template('templates/login.html', error="rander template test")
+	return render_template('login.html', error="rander template test")
 
 @app.route('/base')
-def login():
-	return render_template('templates/base.html', error="rander template test")
+def test():
+	return render_template('base.html', error="rander template test")
 
 if __name__ == '__main__':
 	app.run(host='0.0.0.0')
